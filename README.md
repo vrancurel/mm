@@ -2,32 +2,32 @@
 
 Univariate statistics:
 ----------------------
-unirandp.c      Generate a Uniform Random Probability (0.0<p<1.0)
-invnorm.c       Compute the Inverse Normal CDF (Peter J. Acklam)
-normcdf.c       Compute the univariate Normal CDF (Abramowiz and Stegun 1964)
-normpdf.c       Compute the univariate Normal PDF
-normsamp.c      Generate Normal Samples (Box-Muller)
+* unirandp.c      Generate a Uniform Random Probability (0.0<p<1.0)
+* invnorm.c       Compute the Inverse Normal CDF (Peter J. Acklam)
+* normcdf.c       Compute the univariate Normal CDF (Abramowiz and Stegun 1964)
+* normpdf.c       Compute the univariate Normal PDF
+* normsamp.c      Generate Normal Samples (Box-Muller)
 
 Bivariate statistics:
 ---------------------
-bvmix.c         Bivariate Mixtures (Shotaro Akaho 2001)
-bvmodnorm.c     Normal module for bvmix
-bvmoduni.c      Uniform module for bvmix
-bvncdf.c        Compute the Bivariate Normal CDF integral (Cumulative Distribution Function) (Hull, 1993)
-bvnpdf.c        Numerical computation of the Bivariate Normal PDF (Probability Distribution Funcion)
-bvnsamp.c       Generate correlated BiVariate Normal samples
+* bvmix.c         Bivariate Mixtures (Shotaro Akaho 2001)
+* bvmodnorm.c     Normal module for bvmix
+* bvmoduni.c      Uniform module for bvmix
+* bvncdf.c        Compute the Bivariate Normal CDF integral (Cumulative Distribution Function) (Hull, 1993)
+* bvnpdf.c        Numerical computation of the Bivariate Normal PDF (Probability Distribution Funcion)
+* bvnsamp.c       Generate correlated BiVariate Normal samples
 
 Multivariate statistics:
 ------------------------
-mvmix.c         Multivariate Mixtures
-mvmodnorm.c     Normal module for mvmix
-mvmoduni.c      Uniform module for mvmix
-mvnsamp.c       Generate correlated Multivariate Normal Samples (with Cholesky decomposition)
-mvutils.c       Matrix and vector utilities for Multivariate statistics
+* mvmix.c         Multivariate Mixtures
+* mvmodnorm.c     Normal module for mvmix
+* mvmoduni.c      Uniform module for mvmix
+* mvnsamp.c       Generate correlated Multivariate Normal Samples (with Cholesky decomposition)
+ mvutils.c       Matrix and vector utilities for Multivariate statistics
 
 Misc:
 -----
-prob_test.c     Tests of the above
+* prob_test.c     Tests of the above
 
 
 Example of use: finding 3 gaussian kernels
@@ -36,7 +36,7 @@ After a dozen of iterations...
 
 ![Graphical Output](gnuplot.png )
 
-
+```
 kernel 0 weight 0.008567
 --
 kernel 1 weight 0.329915
@@ -70,3 +70,4 @@ covariance matrix:
 |     4556.283832      -780.323339      6769.880339 |
 --
 likelihood -15.774254
+```
