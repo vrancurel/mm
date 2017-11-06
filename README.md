@@ -23,7 +23,7 @@ Multivariate statistics:
 * mvmodnorm.c     Normal module for mvmix
 * mvmoduni.c      Uniform module for mvmix
 * mvnsamp.c       Generate correlated Multivariate Normal Samples (with Cholesky decomposition)
- mvutils.c       Matrix and vector utilities for Multivariate statistics
+* mvutils.c       Matrix and vector utilities for Multivariate statistics
 
 Misc:
 -----
